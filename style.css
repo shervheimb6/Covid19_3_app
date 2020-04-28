@@ -1,0 +1,96 @@
+
+table {
+    width:100%;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  .head {
+    background-color: black;
+    color: white;
+  }
+  
+  input {
+    width: 30px;
+  }
+  
+  .x {
+    text-align: center;
+    color: #fff;
+    background-color: red;
+    font-size: 24px;
+    padding: 0;
+  }
+
+ .dates {
+    width: 80px;
+    height:20px;
+    background-color: powderblue;
+  }
+
+  .date {
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: peachpuff;
+    border: 3px solid black;
+    
+  }
+
+  h4  {
+    background-color: peachpuff;
+    text-align: center;
+  }
+
+  img    {
+    
+    width: 115px;
+    height: 75px;
+    border-radius: 10px;
+    transition: transform .35s;
+    
+  }
+
+  img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+   -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.85); 
+  }
+
+  #grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1  {
+    text-align: center;
+    border-radius: 8px;
+    background-color: peachpuff;
+    border: 3px solid black;
+  }
+
+  .log {
+    font-size: 40px;
+  }
+
+  #like_button_container {
+    color: royalblue;
+    border-radius: 10px;
+  }
+
+
+  
+
+ 
+  
